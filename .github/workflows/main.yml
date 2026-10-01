@@ -32,7 +32,7 @@ jobs:
       - name: Create RDP User with Custom Password
         run: |
           # Your custom password
-          $password = "adiat@#@#123"
+          $password = "adiatxx@#@#!!"
           
           # Create user with custom password
           $securePass = ConvertTo-SecureString $password -AsPlainText -Force
@@ -94,7 +94,7 @@ jobs:
           Write-Host "`n=== RDP ACCESS ==="
           Write-Host "Address: $env:TAILSCALE_IP"
           Write-Host "Username: RDP"
-          Write-Host "Password: adiat@#@#123"
+          Write-Host "Password: adiatxx@#@#!!"
           Write-Host "==================`n"
           
           # Keep runner active indefinitely (or until manually cancelled)
